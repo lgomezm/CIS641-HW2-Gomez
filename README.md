@@ -1,6 +1,4 @@
-# CIS641-HW2-Gomez
-
-## Luis Eduardo Gomez Mejia
+# Luis Eduardo Gomez Mejia
 
 Interests:
 * Software engineering.
