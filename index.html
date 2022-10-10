@@ -1,5 +1,53 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Luis Gomez</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <body>
-<h1>Luis Gomez</h1>
+    <div class="wrapper">
+        <input type="checkbox" name="nav-check" id="nav-check" />
+        <section class="sec-home" id="sec-home">
+            <div class="content">
+              <h1>Luis Gomez</h1>
+              <h2><a href="#sec-interests">My interests</a></h2>
+              <h2><a href="#sec-background">Technical background</a></h2>
+              <h2><a href="#sec-project">My current project</a></h2>
+            </div>
+          </section>
+        <section class="sec-interests" id="sec-interests">
+            <div class="content">
+                <h1>My interests</h1>
+                <p>Software engineering.</p>
+                <p>Cloud computing.</p>
+                <p>Spending time with my kids.</p>
+            </div>
+        </section>
+        <section class="sec-background" id="sec-background">
+            <div class="content">
+                <h1>Technical background</h1>
+                <p>10 years of professional experience in software development.</p>
+                <p>Proficient in Java and Python.</p>
+                <p>Recent experience with implementing and deploying cloud based applications to GCP.</p>
+            </div>
+        </section>
+        <section class="sec-project" id="sec-project">
+            <div class="content">
+                <h1>My current project</h1>
+                <p>I am working with <a href="https://github.com/alexbilledeaux">Alex Billedeaux</a> and <a href="https://github.com/dannnnnnnnnn10">Dan Dietsche</a> on an exciting project!</p>
+                <p>We are creating a single-player roguelike game. In it, the player will explore procedularly generated maps, seeking the exit while defeating enemies and acquiring items to increase their survivability. When the player reaches the exit, a new map will be generated, featuring stronger enemies and items based on how many maps they have completed in their current run. There will be three classes to choose from, three enemy types to defeat, and the game will continue until the player is defeated.</p>
+            </div>
+        </section>
+        <nav role="navigation">
+          <label for="nav-check"></label>
+          <ul class="navigation">
+            <li><a href="#sec-home">Home</a></li>
+            <li><a href="#sec-interests">Interests</a></li>
+            <li><a href="#sec-background">Technical background</a></li>
+            <li><a href="#sec-project">Project</a></li>
+          </ul>
+        </nav>
+      </div>
 </body>
 </html>
