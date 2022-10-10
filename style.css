@@ -196,3 +196,15 @@ section {
     color: #e9967a;
     text-decoration-style: dashed;
 }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff5ee;
+    color: #e9967a;
+    text-align: left;
+    font: 12px 'Verdana';
+    padding-left: 10em;
+    z-index: 1;
+ }
